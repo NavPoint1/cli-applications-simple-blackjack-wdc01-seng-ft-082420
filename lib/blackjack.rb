@@ -42,7 +42,7 @@ def hit?(card_total)
   if reply == "s"
     
   elsif reply == "h"
-  
+    card_total = card_total + deal_card
   else
     puts "Please enter a valid command"
     prompt_user
