@@ -44,7 +44,8 @@ def hit?(card_total)
   elsif reply == "h"
   
   else
-    
+    puts "Please enter a valid command"
+    prompt_user
   end
   card_total
 end
